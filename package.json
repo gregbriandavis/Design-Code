@@ -1,32 +1,24 @@
 {
-  "name": "browser-sync-jekyll",
-  "version": "0.0.0",
-  "description": "A starter project including full setup for Jekyll, GulpJS, SASS & BrowserSync",
+  "name": "design-code",
+  "version": "1.0.0",
+  "description": "Greg's New Website",
   "main": "gulpfile.js",
+  "dependencies": {
+    "jade": "^1.11.0",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Shane Osbourne",
-  "license": "ISC",
-  "devDependencies": {
-    "browser-sync": "^2.8.0",
-    "gulp": "^3.9.0",
-    "gulp-autoprefixer": "^2.3.1",
-    "gulp-jade": "^1.0.1",
-    "gulp-sass": "^2.0.4"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync.git"
+    "url": "git+https://github.com/travisneilson/Design-Code.git"
   },
-  "keywords": [
-    "jekyll",
-    "gulp",
-    "sass",
-    "browsersync"
-  ],
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync/issues"
+    "url": "https://github.com/travisneilson/Design-Code/issues"
   },
-  "homepage": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync"
+  "homepage": "https://github.com/travisneilson/Design-Code#readme"
 }
